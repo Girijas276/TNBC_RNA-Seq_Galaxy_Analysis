@@ -36,20 +36,21 @@ Survival analysis in cBioPortal (TCGA BRCA cohort) showed that high expression o
 ## Files in this Repo
 
 | File | Description |
-|---|---|
-| `FastQC_on_dataset_77_Webpage.zip` | Raw read quality report (FastQC), one representative sample |
-| `MultiQC_on_dataset...html` | Consolidated QC summary across all samples (post-trimming) |
-| `Galaxy165-[HISAT2 Mapping summary].txt` | Alignment summary, one representative sample |
-| `Galaxy309-[featureCounts Summary].tabular` | Read-counting summary |
-| `Galaxy357-[DESeq2 result file].tabular.txt` | Full DEG results table (3,319 genes: gene ID, log2FC, p-value) |
-| `Galaxy358-[DESeq2 plots].pdf` | DESeq2 diagnostic plots (e.g. MA-plot/PCA) |
-| `Galaxy359-[Normalized counts file].tabular` | Normalized expression counts across samples |
-| `Galaxy392-[upregulatedforpathyaway.txt].tabular` | Pathway enrichment results, upregulated genes |
-| `Galaxy394-[pathway downregulated.txt].tabular` | Pathway enrichment results, downregulated genes |
-| `Galaxy395-[annotateMyIDs...Annotated IDs].tabular` | Gene ID to gene name annotation |
-| `cytohubba1.png` | Hub gene protein-protein interaction network (downregulated genes) |
-| `node table1.csv` | Hub gene rankings from cytoHubba (Cytoscape export) |
-| `valcano plot of 267442.pdf` | Volcano plot of DEGs (up/down/not significant) |
+| `FastQC_report.zip` | Raw read quality report (FastQC), one representative sample |
+| `MultiQC_report.html` | Consolidated QC summary across all samples (post-trimming) |
+| `HISAT2_alignment_summary.txt` | Alignment summary, one representative sample |
+| `featureCounts_summary.tabular` | Read-counting summary |
+| `DESeq2_results.txt` | Full DEG results table (3,319 genes: gene ID, log2FC, p-value) |
+| `DESeq2_plots.pdf` | DESeq2 diagnostic plots (e.g. MA-plot/PCA) |
+| `normalized_counts.tabular` | Normalized expression counts across samples |
+| `pathway_upregulated.tabular` | Pathway enrichment results, upregulated genes |
+| `pathway_downregulated.tabular` | Pathway enrichment results, downregulated genes |
+| `annotated_gene_IDs.tabular` | Gene ID to gene name annotation |
+| `hub_upregulated_gene_network.png` | Hub gene protein-protein interaction network (upregulated genes) |
+| `hub_upregulated_gene_rankings.csv` | Hub gene rankings, upregulated (cytoHubba/Cytoscape export) |
+| `hub_downregulated_gene_network.png` | Hub gene protein-protein interaction network (downregulated genes) |
+| `hub_downregulated_gene_rankings.csv` | Hub gene rankings, downregulated (cytoHubba/Cytoscape export) |
+| `volcano_plot.pdf` | Volcano plot of DEGs (up/down/not significant) |
 
 ## Tools & Skills Demonstrated
 
