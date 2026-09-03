@@ -36,6 +36,7 @@ Survival analysis in cBioPortal (TCGA BRCA cohort) showed that high expression o
 ## Files in this Repo
 
 | File | Description |
+|---|---|
 | `FastQC_report.zip` | Raw read quality report (FastQC), one representative sample |
 | `MultiQC_report.html` | Consolidated QC summary across all samples (post-trimming) |
 | `HISAT2_alignment_summary.txt` | Alignment summary, one representative sample |
@@ -51,7 +52,6 @@ Survival analysis in cBioPortal (TCGA BRCA cohort) showed that high expression o
 | `hub_downregulated_gene_network.png` | Hub gene protein-protein interaction network (downregulated genes) |
 | `hub_downregulated_gene_rankings.csv` | Hub gene rankings, downregulated (cytoHubba/Cytoscape export) |
 | `volcano_plot.pdf` | Volcano plot of DEGs (up/down/not significant) |
-
 ## Tools & Skills Demonstrated
 
 - RNA-seq data analysis (Galaxy platform)
